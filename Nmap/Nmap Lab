@@ -1,0 +1,19 @@
+## Lab 01 – Nmap Scan
+commands
+nmap -sV 192.168.1.104 -Pn
+FTP (21/tcp) open
+SSH (22/tcp) open
+HTTP (80/tcp) open
+after these
+nmap -A 192.168.1.104
+-A is for all three service version detection sV os detection and script detection all three in one -A
+ **Screenshot 1**
+![Nmap Scan Result 1](Screenshot_2025-08-20_17_55_32.png)
+
+**Screenshot 2**
+![Nmap Scan Result 2](Screenshot_2025-08-20_18_00_16.png)
+
+
+<img width="1366" height="662" alt="Screenshot_2025-08-20_18_00_16" src="https://github.com/user-attachments/assets/140e92fc-bab0-4fd6-80c4-dbc9ab15e2be" />
+<img width="1366" height="662" alt="Screenshot_2025-08-20_17_55_32" src="https://github.com/user-attachments/assets/0640e65e-670d-4fb7-ace8-521f0bdc0b85" />
+<img width="1366" height="662" alt="Screenshot_2025-08-20_17_58_01" src="https://github.com/user-attachments/assets/9eab3ec6-5df2-4133-ad77-05f26f56d5ac" />
